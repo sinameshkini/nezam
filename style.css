@@ -1,0 +1,530 @@
+#header
+{
+    margin: 10px;
+    border: 1px solid #ddeef0;
+    border-radius: 5px;
+    height: 100px;
+    background-color: #ddeef0;
+    font-family: "B Mitra";
+}
+
+#header img
+{
+    width: 100px;
+    height: 100px;
+}
+
+.card
+{
+    background-color: white;
+    height: auto;
+    border: 1px solid #ddeef0;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: "B Mitra";
+}
+.topnav
+{
+    border: 1px solid #ddeef0;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color:#ddeef0;
+    font-family: "B Mitra";
+    margin: 10px;
+}
+
+.topnav a
+{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.topnav a:hover
+{
+    background-color: white;
+    color: blue;
+}
+#golestan
+{
+    font-family: "B Mitra";
+    font-size: 25px;
+}
+
+.topnav a:event
+{
+    background-color: white;
+    color: blue;
+}
+#hazine
+{
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+}
+
+#list
+{
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+}
+
+p
+{
+    border-bottom: 4px solid #ddeef0;
+    margin: 10px;
+    padding-right: 20px;
+
+}
+h2
+{
+    border-bottom: 4px solid #ddeef0;
+    margin: 10px;
+    padding-right: 20px;
+
+}
+
+table {
+    font-family: "B Mitra";
+    white-space:nowrap;
+    max-width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+th, td{
+    
+    padding: 10px;
+    border-left:1px solid #96CCF8;
+}
+
+td.photo img{
+    width: 50px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+tr{
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover
+{
+    background-color: #b7dbf8;
+}
+
+th {
+    background-color:#96CCF8;
+    color: black;
+    font-family: "B Mitra";
+    font-size:14px;
+}
+
+#Hozoorqiab
+{
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+}
+
+form{
+    display: block;
+    margin: 10px;
+}
+
+.insert{
+    width: 180px;
+    height: 25px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    float: right;
+}
+
+a{
+    border: 1px solid #ddeef0;
+    border-radius: 5px;
+    font-family: "B Mitra";
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #ddeef0;
+    transition-duration: 0.4s;
+}
+
+a:hover{
+    background-color: white;
+}
+
+#dore
+{
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.search{
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 180px;
+    font-size: 16px;
+    font-family: "B Mitra";
+}
+
+.button{
+    border: 1px solid #ddeef0;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #ddeef0;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    height: 35px;
+    font-family: "B Mitra";
+}
+.button:hover{
+    background-color: white;
+    border: 1px solid #ddeef0;
+}
+
+button a{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.updeld{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:#ed2939;
+    
+    height: 20px;
+    padding: 8px;
+    margin: 5px;
+    float: right;
+    font-weight: 600;
+    font-family: "B Mitra";
+}
+
+.updeld:hover
+{
+    background-color:white;
+    color: #ed2939;
+
+}
+
+.download{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(118, 231, 118);
+    
+    height: 20px;
+    padding: 8px;
+    margin: 5px;
+    float: right;
+    font-weight: 600;
+    font-family: "B Mitra";
+}
+
+.download:hover
+{
+    background-color:white;
+    color: rgb(118, 231, 118);
+    border: 1px solid rgb(118, 231, 118);
+
+}
+
+.updel{
+    border: 1px solid white;
+    background-color: rgb(124, 229, 255);
+    border-radius: 5px;
+    color: black;
+    height: 20px;
+    padding: 8px;
+    margin: 5px;
+    float: right;
+    font-weight: 600;
+    font-family: "B Mitra";
+}
+
+
+#card2 {
+    background-color: #ddeef0;
+    height: 350px;
+    width: 300px;
+    border: 0px outset blue;
+    border-radius: 5px;
+    margin-top: 80px;
+    font-family: "B Mitra";
+}
+
+#a-index
+{
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 115px;
+    padding-right: 115px;
+    border:none;
+    cursor: pointer;
+    font-family: "B Mitra";
+    font-size:20px;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #20F352;
+}
+
+#karbaran
+{
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+}
+
+#btn
+{
+    font-size: 20px;
+    color: black;
+    background-color:#ddeef0;
+    border: #ddeef0;
+    border-radius: 5px;
+    width: 200px;
+    padding: 8px 15px;
+    box-sizing: border-box;   
+}
+
+#btn:hover
+{
+    background-color: white;
+    border: 1px solid #ddeef0;
+}
+
+#btn-index
+{
+    direction: rtl;
+    background-color: #96CCF8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:none;
+    cursor: pointer;
+    width: 90%;
+    font-family: "B Mitra";
+    font-size:20px;
+    border-radius: 50px;
+
+}
+
+.form-group
+{
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+}
+
+#btninsert
+{
+    direction: rtl;
+    background-color: #96CCF8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border:none;
+    cursor: pointer;
+    width: 50%;
+    font-family: "B Mitra";
+    font-size:20px;
+    border-radius: 50px;
+}
+
+textarea {
+
+    display: inline-block;
+    border: 1px solid powderblue;
+    box-sizing: border-box;
+}
+
+.news {
+    background-color: #EFEBEB;
+    width: auto;
+    direction: rtl;
+    border: 15px outset#ddeef0;
+    padding: 25px;
+    margin: 25px;
+}
+
+#Akhbar
+{
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+}
+#Akhbar
+{
+    border-bottom: 4px solid #ddeef0;
+    margin: 10px;
+    padding-right: 20px;
+
+}
+#overflowTest
+{
+    padding: 15px;
+    width: 100%;
+    height:500px;
+    overflow:scroll;
+    border:1px solid #ddeef0;
+}
+.container {
+    padding: 16px;
+    font-family: "B Mitra";
+    font-size: 20px;
+    direction: rtl;
+}
+
+#samane {
+    font-size: 30px;
+    border-bottom: 4px solid #ddeef0;
+    margin: 10px;
+    padding-right: 20px;
+    font-family: "B Mitra";
+}
+
+#email
+{
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+}
+
+.delete
+{
+    font-size: 20px;
+    color: black;
+    background:#ddeef0;
+    width: 150px;
+    padding: 8px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: #1F04A3;
+    margin-left: 23px;
+    margin-top:250px;
+    font-family: "B Mitra";
+}
+
+#daramad
+{
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+}
+
+
+#license
+{
+    width:600px;
+    height:200px;
+    margin-top: 50px;
+    border: 5px solid #ddeef0;
+    border-radius: 7px;
+    
+}
+
+#felan
+{
+    text-align: right;
+    margin-right: 20px;
+    font-family: "B Mitra";
+    font-size: 20px;
+}
+
+
+#zheton
+{
+    margin-left:10px;
+    margin-right: 10px; 
+    direction: rtl;
+    font-family: "B Mitra";
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+#tbl-zheton
+{
+    margin: 40px;
+    border: 3px solid #ddeef0;
+    border-radius: 5px;
+}
+
+#news
+{
+    margin:20px;
+    border: 1px solid #ddeef0;
+   
+
+}
+
+.alert-r
+{
+
+    margin: 0 auto;
+    text-align:center;
+    width:500px;
+    margin-top:25px;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 10px;
+}
+
+.alert-g 
+{
+    
+    margin: 0 auto;
+    text-align:center;
+    width:500px;
+    margin-top:25px;
+    padding: 20px;
+    background-color: #23a312;
+    color: white;
+    border-radius: 10px;
+}
+
+.closebtn 
+{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover 
+{
+    color: black;
+}
+
+#signup-table
+{
+    direction: rtl;
+    text-align: center;
+    float: right;
+}

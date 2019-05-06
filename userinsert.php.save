@@ -1,0 +1,85 @@
+<?php
+require_once ("include.php");
+if(!isset($_SESSION['username'])){
+    require_once ("index.php");
+    exit;
+}
+
+?>
+<!DOCTYPE html>
+<html style="direction: rtl">
+<head>
+    <title>ثبت کاربر جدید</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<?php
+require_once ("header.php");
+require_once ("menu.php");
+?>
+
+<form action="user_managment.php?insert=1" method="post">
+    <table style="width:50%; margin:0 auto;">
+        <tr>
+            <td>شماره نظام مهندسی</td>
+            <td><input type="text" name="membernum" /></td>
+        </tr>
+        <tr>
+            <td>نام</td>
+            <td><input type="text" name="firstname" /></td>
+        </tr>
+        <tr>
+            <td>نام خانوادگی</td>
+            <td><input type="text" name="lastname" /></td>
+        </tr>
+        <tr>
+            <td>کد ملی</td>
+            <td><input type="text" name="codemeli" /></td>
+        </tr>
+        <tr>
+            <td>شماره پروانه</td>
+            <td><input type="text" name="parvanenum" /></td>
+        </tr>
+        <tr>
+            <td>شماره تلفن ثابت</td>
+            <td><input type="text" name="phone" /></td>
+        </tr>
+        <tr>
+            <td>شماره تلفن همراه</td>
+            <td><input type="text" name="mobile" /></td>
+        </tr>
+        <tr>
+            <td>ایمیل</td>
+            <td><input type="text" name="email" /></td>
+        </tr>
+        <tr>
+            <td>آدرس</td>
+            <td><input type="text" name="address" /></td>
+        </tr>
+        <tr>
+            <td>کلمه عبور</td>
+            <td><input type="text" name="password" /></td>
+        </tr>
+	<tr>
+            <td colspan="2" style="text-align:center;">
+                <input id="btninsert"  type="submit" value="ثبت کاربر" />
+            </td>
+        </tr>
+        <tr>
+	    <td>	
+            <form action="upload.php" method="post" enctype="multipart/form-data"  >
+                <label for="uname"><b style="padding-left: 115px; margin-left:230px; ">عکس پرسنلی:</b></label>
+                <input type="file" name="image"/>
+                <input style="background-color:#ddeef0;" type="submit" name="submit" value="UPLOAD"/>
+            </form>
+	    </td colspan="">		
+	</tr
+	<tr>
+	   <td
+        
+    </table>
+</form>
+</body>
+</html>
